@@ -1,0 +1,47 @@
+@media (min-width:500px) {
+  .partyAnimalsProfilePic {
+    height: 300px;
+    width: 300px;
+
+
+  }
+
+  .partyAnimals {
+
+    grid-template-columns: repeat(auto-fit, 300px);
+  }
+
+  .manyCards {
+
+
+
+    grid-template-columns: repeat(auto-fit, 300px);
+  }
+
+  .venuePic {
+    height: 300px;
+    width: 300px
+  }
+
+  .oneCard {
+      width:calc(100% - 50px);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .frame {
+    height: 100%
+  }
+  .navigationBtns {
+height: 300px;
+  width: 50px;
+  display: grid;
+  justify-self: bottom;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+  }
+}
